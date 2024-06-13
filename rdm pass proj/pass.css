@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&display=swap');
+/*making all fonts Poppins for every element and seting margins and padding to 0*/
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(80deg, #1b1b1b, #1b1b1b, #1b2b3b) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.container{
+    border: solid white;
+    border-radius: 10px;
+    width: 550px;
+    height: 300px;
+    box-shadow: 0px 10px 150px;
+    backdrop-filter: blur(15px);
+    background: #1b1b1b;
+    position: absolute;
+    left: 20%;
+    top: 89px;
+}
+
+#resultP{
+    font-size: 29px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-shadow: 0px 10px 15px black;
+}
+
+.label{
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-shadow: 0px 3px 10px black;
+}
+
+.pass{
+    color: #fff;
+    padding: 10px;
+    text-shadow: 0px 3px 10px black;
+}
+
+.buttons{
+    border-radius: 30px;
+    width: 150px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-top: 14px;
+    transition: .5s;
+    
+}
+
+.buttons:hover{
+    transform: scale(105%);
+    transition: .5s;
+}
+
+.buttons:active{
+    transform: scale(95%);
+    transition: .2s;
+}
